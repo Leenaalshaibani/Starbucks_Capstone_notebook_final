@@ -37,19 +37,31 @@ value - (dict of strings) - either an offer id or transaction amount depending o
 
 
 import re
+
 import math
+
 import json
+
 import pandas as pd
+
 import numpy as np
+
 import seaborn as sns
 
 from matplotlib import pyplot as plt
+
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.preprocessing import MinMaxScaler
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.metrics import accuracy_score, f1_score
+
 from sklearn.metrics import fbeta_score, make_scorer
+
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 
 % matplotlib inline
