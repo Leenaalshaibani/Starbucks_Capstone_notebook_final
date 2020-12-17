@@ -1,7 +1,7 @@
 # Starbucks Capstone
 
 # Overview
-Starbucks, one of the world’s most popular coffee shops, frequently provides offers to its customers through its rewards app to drive more sales. These offers can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). This project is focused on tailoring the promotional offers for customers based on their responses to the previous offers and predict the response of a customer to an offer. Firstly, to best analyze the data thoroughly, Exploratory Data Analysis(EDA) is performed to find the data representations & characteristics. Secondly, machine learning models are built predict the customer’s response to an offer so that Starbucks can properly target who they send their offers to.
+These days, if we are talking about the coffeeshops, for sure Starbuck will be in our mind, and all of the global companies are trying their best to apply many offers for their customers, in order to increase the number of sales and to get the benefits. these days, the offering and advertisement types and criteria get changed very fast with the technology and everyone now adays is competing with each other to do the best. In our project, we will create a model that will help Starbuck to predict the customers that will get the benefit from the offer. And also, it will help in getting an estimation number before applying the offer, and a correction later on to increase the benifets.
 
 # Data Sets
 The data is contained in three files:
