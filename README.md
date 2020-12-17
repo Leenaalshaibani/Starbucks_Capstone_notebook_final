@@ -48,14 +48,10 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 
 % matplotlib inline
 
-# Motivation
-
-This project to complete udacity Data Scientist Nanodegree capstone project I've chosen Starbucks data that mimics customer behavior on the Starbucks rewards mobile app, and build a model to predict the preferred offer by the clients
-
 
 # The problem
-
-that I chose to solve was to build a model that predicts whether a customer will respond to an offer. My strategy for solving this problem has two steps. First, I will combine the offer portfolio, customer profile, and transaction data. Each row of this combined dataset will describe an offer's attributes, customer demographic data, and whether the offer was successful. Second, I will assess the accuracy and F1-score of a naive model that assumes all offers were successful. This provides me with a baseline for evaluating the performance of models that I construct. Accuracy measures how well a model correctly predicts whether an offer is successful. However, if the percentage of successful or unsuccessful offers is very low, accuracy is not a good measure of model performance. For this situation, evaluating a models' precision and recall provides better insight into its performance. I chose the F1-score metric because it is "a weighted average of the precision and recall metrics".
+build models that will be able to predict the customer’s response to an offer so that Starbucks can properly target who they send their offers to
 
 # blog post 
 https://lina-alshaibani.medium.com/starbucks-capstone-challenge-d1ef8fa50276
+
