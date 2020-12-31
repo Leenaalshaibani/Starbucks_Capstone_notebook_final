@@ -59,6 +59,9 @@ That I chose to solve was to build a model that predicts whether a customer will
 
 # References/Acknowledgments
 https://www.udacity.com/
+
+
+
 https://stackoverflow.com/
 
 # blog post 
