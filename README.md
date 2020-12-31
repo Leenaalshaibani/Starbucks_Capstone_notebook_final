@@ -50,7 +50,7 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 
 
 # The problem
-build models that will be able to predict the customer’s response to an offer so that Starbucks can properly target who they send their offers to
+That I chose to solve was to build a model that predicts whether a customer will respond to an offer. My strategy for solving this problem has two steps. First, I will combine the offer portfolio, customer profile, and transaction data. Each row of this combined dataset will describe an offer's attributes, customer demographic data, and whether the offer was successful. Second, I will use  the LinearRegression model. This provides me with a baseline for evaluating the performance of models that I construct. Accuracy measures how well a model correctly predicts whether an offer is successful.
 
 # blog post 
 https://lina-alshaibani.medium.com/starbucks-capstone-challenge-d1ef8fa50276
