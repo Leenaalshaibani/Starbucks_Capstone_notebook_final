@@ -57,6 +57,9 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 # The problem
 That I chose to solve was to build a model that predicts whether a customer will respond to an offer. My strategy for solving this problem has two steps. First, I will combine the offer portfolio, customer profile, and transaction data. Each row of this combined dataset will describe an offer's attributes, customer demographic data, and whether the offer was successful. Second, I will use  the LinearRegression model. This provides me with a baseline for evaluating the performance of models that I construct. Accuracy measures how well a model correctly predicts whether an offer is successful.
 
+# Metrics
+Accuracy is the best metric to evaluate my work because I want to see how my model by finding accurate predictions with the total number of prediction 
+
 # References/Acknowledgments
 https://www.udacity.com/
 
