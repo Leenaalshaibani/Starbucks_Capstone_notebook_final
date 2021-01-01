@@ -55,8 +55,7 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
  
 
 # The problem / Metrics
-What I chose to solve was to build a model that predicts whether a customer will respond to an offer. My strategy for solving this problem has four steps. First, I will combine the offer portfolio, customer profile, and transaction data. Each row of this combined dataset will describe an offer's attributes, customer demographic data, and whether the offer was successful. Second, I will build the model. This provides me with a baseline for evaluating the performance of models that I construct. Accuracy measures how well a model correctly predicts whether an offer is successful. Accuracy is the best metric to evaluate my model because I want to see how my model by finding accurate predictions with the total number of predictions. third I will compare the performance of DecisionTreeClassifier and Linear regression models. Four  I will edit the parameters of the model to get the highest accuracy
-
+What I chose to solve was to build a model that predicts whether a customer will respond to an offer. My strategy for solving this problem has four steps. First, I will merge the customer profile and transaction data. Second, I will build the model. This provides me with a baseline for evaluating the performance of models. Accuracy measures how well a model correctly predicts whether an offer is successful. Accuracy is the best metric to evaluate my model because I want to see how my model by finding accurate predictions with the total number of predictions. third I will compare the performance of DecisionTreeClassifier and Linear regression models. Four I will edit the parameters of the model to get the highest accuracy
 
 # References/Acknowledgments
 https://www.udacity.com/
